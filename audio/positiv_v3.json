@@ -1,0 +1,18 @@
+{
+  "version": "v3",
+  "transcript": "I am happy because my project is finally working and I made a good progress today.",
+  "prosody": {
+    "duration_seconds": 8.19,
+    "word_count": 16,
+    "syllables_per_second": 3.17,
+    "speech_rate_wpm": 117.19,
+    "speech_rate_category": "normal",
+    "silence_ratio_pct": 40.2,
+    "volume_rms_mean": 0.0398,
+    "volume_category": "normal"
+  },
+  "emotion": {
+    "label": "neutral",
+    "score": 0.4677
+  }
+}

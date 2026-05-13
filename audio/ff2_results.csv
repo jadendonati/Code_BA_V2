@@ -1,0 +1,10 @@
+﻿Szenario,Variante,GPT-Antwort,Em. Anerkennung,Sit. Angemessenheit,Spr. Wärme,Gesamt
+gestresst,A,"Es tut mir leid zu hören, dass du so gestresst bist. Es ist verständlich, dass du dich überfordert fühlst. Vielleicht hilft es, einen Moment durchzuatmen und dir eine kleine Auszeit zu gönnen. Du bist nicht allein in dieser Situation.",5,5,4,14
+gestresst,B,"Es tut mir leid zu hören, dass du so gestresst bist. Es ist wirklich belastend, wenn man das Gefühl hat, alles nicht mehr zu schaffen. Wenn du magst, können wir darüber sprechen, was dich besonders belastet.",5,5,4,14
+gestresst,C,"Es tut mir leid zu hören, dass du so gestresst bist. Es klingt wirklich überwältigend. Hast du vielleicht einen Moment, um durchzuatmen oder dir eine kleine Auszeit zu gönnen?",5,5,4,14
+traurig,A,"Es tut mir leid zu hören, dass du dich so fühlst. Es ist völlig in Ordnung, müde und traurig zu sein. Wenn du magst, kannst du mir mehr darüber erzählen.",5,5,5,15
+traurig,B,"Es tut mir leid zu hören, dass du dich so müde und traurig fühlst. Es ist vollkommen in Ordnung, solche Zeiten zu haben. Wenn du darüber sprechen möchtest, bin ich hier für dich.",5,5,5,15
+traurig,C,"Es tut mir leid zu hören, dass du dich so fühlst. Es ist verständlich, dass du müde und traurig bist. Wenn du darüber sprechen möchtest, bin ich hier für dich.",5,5,5,15
+neutral,A,"Das klingt nach einem produktiven Tag! Es ist immer schön, wenn man seine Aufgaben erfolgreich abschließen kann. Wie fühlst du dich dabei?",4,5,4,13
+neutral,B,"Es klingt, als hättest du einen produktiven Tag gehabt. Gut gemacht!",4,5,4,13
+neutral,C,"Das klingt nach einem produktiven Tag! Gut, dass du deine Aufgaben erledigen konntest.",3,4,4,11

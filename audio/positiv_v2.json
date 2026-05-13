@@ -1,0 +1,10 @@
+{
+  "version": "v2",
+  "transcript": "I am happy because my project is finally working and I made a good progress today.",
+  "prosody": {
+    "speech_rate_wpm": 117.19,
+    "speech_rate_category": "normal",
+    "silence_ratio_pct": 40.2,
+    "volume_category": "normal"
+  }
+}

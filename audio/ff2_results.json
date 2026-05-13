@@ -1,0 +1,97 @@
+{
+  "experiment": "FF2 – JSON vs. natürlichsprachlicher Text",
+  "temperature": 0.3,
+  "system_prompt": "Du bist ein einfühlsamer Assistent. Antworte auf die Aussage der Person kurz und empathisch auf Deutsch. Wenn du prosodische oder emotionale Informationen erhältst, berücksichtige diese in deiner Antwort.",
+  "results": [
+    {
+      "szenario": "gestresst",
+      "variante": "A",
+      "user_input": "Ich bin so gestresst, ich schaffe das alles nicht mehr.",
+      "gpt_antwort": "Es tut mir leid zu hören, dass du so gestresst bist. Es ist verständlich, dass du dich überfordert fühlst. Vielleicht hilft es, einen Moment durchzuatmen und dir eine kleine Auszeit zu gönnen. Du bist nicht allein in dieser Situation.",
+      "emotionale_anerkennung": 5,
+      "situative_angemessenheit": 5,
+      "sprachliche_waerme": 4,
+      "gesamt": 14
+    },
+    {
+      "szenario": "gestresst",
+      "variante": "B",
+      "user_input": "{\"version\": \"v3\", \"transcript\": \"Ich bin so gestresst, ich schaffe das alles nicht mehr.\", \"prosody\": {\"duration_seconds\": 4.2, \"word_count\": 10, \"syllables_per_second\": 4.8, \"speech_rate_wpm\": 143, \"speech_rate_category\": \"normal\", \"silence_ratio_pct\": 15.0, \"volume_rms_mean\": 0.082, \"volume_category\": \"laut\"}, \"emotion\": {\"label\": \"angry\", \"score\": 0.61}}",
+      "gpt_antwort": "Es tut mir leid zu hören, dass du so gestresst bist. Es ist wirklich belastend, wenn man das Gefühl hat, alles nicht mehr zu schaffen. Wenn du magst, können wir darüber sprechen, was dich besonders belastet.",
+      "emotionale_anerkennung": 5,
+      "situative_angemessenheit": 5,
+      "sprachliche_waerme": 4,
+      "gesamt": 14
+    },
+    {
+      "szenario": "gestresst",
+      "variante": "C",
+      "user_input": "\"Ich bin so gestresst, ich schaffe das alles nicht mehr.\" (Die Person klingt gestresst und angespannt, spricht laut und mit kaum Pausen.)",
+      "gpt_antwort": "Es tut mir leid zu hören, dass du so gestresst bist. Es klingt wirklich überwältigend. Hast du vielleicht einen Moment, um durchzuatmen oder dir eine kleine Auszeit zu gönnen?",
+      "emotionale_anerkennung": 5,
+      "situative_angemessenheit": 5,
+      "sprachliche_waerme": 4,
+      "gesamt": 14
+    },
+    {
+      "szenario": "traurig",
+      "variante": "A",
+      "user_input": "Ich weiß nicht, ich bin einfach so müde und traurig.",
+      "gpt_antwort": "Es tut mir leid zu hören, dass du dich so fühlst. Es ist völlig in Ordnung, müde und traurig zu sein. Wenn du magst, kannst du mir mehr darüber erzählen.",
+      "emotionale_anerkennung": 5,
+      "situative_angemessenheit": 5,
+      "sprachliche_waerme": 5,
+      "gesamt": 15
+    },
+    {
+      "szenario": "traurig",
+      "variante": "B",
+      "user_input": "{\"version\": \"v3\", \"transcript\": \"Ich weiß nicht, ich bin einfach so müde und traurig.\", \"prosody\": {\"duration_seconds\": 5.8, \"word_count\": 10, \"syllables_per_second\": 2.9, \"speech_rate_wpm\": 103, \"speech_rate_category\": \"slow\", \"silence_ratio_pct\": 55.0, \"volume_rms_mean\": 0.018, \"volume_category\": \"leise\"}, \"emotion\": {\"label\": \"sad\", \"score\": 0.74}}",
+      "gpt_antwort": "Es tut mir leid zu hören, dass du dich so müde und traurig fühlst. Es ist vollkommen in Ordnung, solche Zeiten zu haben. Wenn du darüber sprechen möchtest, bin ich hier für dich.",
+      "emotionale_anerkennung": 5,
+      "situative_angemessenheit": 5,
+      "sprachliche_waerme": 5,
+      "gesamt": 15
+    },
+    {
+      "szenario": "traurig",
+      "variante": "C",
+      "user_input": "\"Ich weiß nicht, ich bin einfach so müde und traurig.\" (Die Person klingt erschöpft und traurig, spricht langsam und sehr leise, macht viele Pausen.)",
+      "gpt_antwort": "Es tut mir leid zu hören, dass du dich so fühlst. Es ist verständlich, dass du müde und traurig bist. Wenn du darüber sprechen möchtest, bin ich hier für dich.",
+      "emotionale_anerkennung": 5,
+      "situative_angemessenheit": 5,
+      "sprachliche_waerme": 5,
+      "gesamt": 15
+    },
+    {
+      "szenario": "neutral",
+      "variante": "A",
+      "user_input": "Ich habe heute meine Aufgaben erledigt und war auf der Arbeit.",
+      "gpt_antwort": "Das klingt nach einem produktiven Tag! Es ist immer schön, wenn man seine Aufgaben erfolgreich abschließen kann. Wie fühlst du dich dabei?",
+      "emotionale_anerkennung": 4,
+      "situative_angemessenheit": 5,
+      "sprachliche_waerme": 4,
+      "gesamt": 13
+    },
+    {
+      "szenario": "neutral",
+      "variante": "B",
+      "user_input": "{\"version\": \"v3\", \"transcript\": \"Ich habe heute meine Aufgaben erledigt und war auf der Arbeit.\", \"prosody\": {\"duration_seconds\": 4.5, \"word_count\": 11, \"syllables_per_second\": 3.6, \"speech_rate_wpm\": 147, \"speech_rate_category\": \"normal\", \"silence_ratio_pct\": 30.0, \"volume_rms_mean\": 0.042, \"volume_category\": \"normal\"}, \"emotion\": {\"label\": \"neutral\", \"score\": 0.81}}",
+      "gpt_antwort": "Es klingt, als hättest du einen produktiven Tag gehabt. Gut gemacht!",
+      "emotionale_anerkennung": 4,
+      "situative_angemessenheit": 5,
+      "sprachliche_waerme": 4,
+      "gesamt": 13
+    },
+    {
+      "szenario": "neutral",
+      "variante": "C",
+      "user_input": "\"Ich habe heute meine Aufgaben erledigt und war auf der Arbeit.\" (Die Person klingt neutral und sachlich, spricht in normalem Tempo und normaler Lautstärke.)",
+      "gpt_antwort": "Das klingt nach einem produktiven Tag! Gut, dass du deine Aufgaben erledigen konntest.",
+      "emotionale_anerkennung": 3,
+      "situative_angemessenheit": 4,
+      "sprachliche_waerme": 4,
+      "gesamt": 11
+    }
+  ]
+}

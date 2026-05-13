@@ -1,0 +1,18 @@
+{
+  "version": "v3",
+  "transcript": "I am really stressed today because I have many deadlines and not much time left.",
+  "prosody": {
+    "duration_seconds": 7.04,
+    "word_count": 15,
+    "syllables_per_second": 3.55,
+    "speech_rate_wpm": 127.84,
+    "speech_rate_category": "normal",
+    "silence_ratio_pct": 41.1,
+    "volume_rms_mean": 0.0422,
+    "volume_category": "normal"
+  },
+  "emotion": {
+    "label": "neutral",
+    "score": 0.8074
+  }
+}

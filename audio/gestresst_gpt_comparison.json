@@ -1,0 +1,9 @@
+{
+  "audio_file": "gestresst.wav",
+  "temperature": 0.3,
+  "answers": {
+    "v1": "Es tut mir leid zu hören, dass du so gestresst bist. Das kann wirklich überwältigend sein. Versuch, dir kleine Pausen zu gönnen, um durchzuatmen. Du schaffst das!",
+    "v2": "Es tut mir leid zu hören, dass du so gestresst bist. Deadlines können wirklich überwältigend sein. Nimm dir einen Moment, um durchzuatmen. Du schaffst das!",
+    "v3": "Es tut mir leid zu hören, dass du so gestresst bist. Deadlines können wirklich belastend sein. Denk daran, dir auch kleine Pausen zu gönnen."
+  }
+}
