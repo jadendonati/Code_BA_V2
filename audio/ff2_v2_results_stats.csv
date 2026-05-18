@@ -1,0 +1,15 @@
+﻿# Deskriptive Statistik
+Variante,Em. Anerkennung_mean,Em. Anerkennung_std,Sit. Angemessenheit_mean,Sit. Angemessenheit_std,Spr. Wärme_mean,Spr. Wärme_std,Gesamt_mean,Gesamt_std
+A,4.0,0.0,5.0,0.0,4.0,0.0,13.0,0.0
+B,4.333,1.155,4.667,0.577,4.333,0.577,13.333,2.082
+C,4.333,1.155,4.667,0.577,4.333,0.577,13.333,2.082
+
+# Friedman-Test
+Test,Vergleich,chi2,p-Wert
+Friedman,A / B / C,0.667,0.7165
+
+# Post-hoc Wilcoxon
+Vergleich,W-Statistik,p-Wert,Hinweis
+A vs B,2.5,1.0,
+A vs C,2.5,1.0,
+B vs C,,,alle Differenzen = 0

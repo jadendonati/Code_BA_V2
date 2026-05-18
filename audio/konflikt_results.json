@@ -1,0 +1,680 @@
+{
+  "experiment": "Widerspruchstest – Text vs. Emotion",
+  "n_sentences": 21,
+  "sentences": [
+    {
+      "sentence": "Ich habe heute einen leckeren Kuchen gebacken.",
+      "content_valence": "positiv",
+      "emotion": {
+        "label": "sad",
+        "score": 0.7
+      }
+    },
+    {
+      "sentence": "Das Wetter ist heute wirklich schön.",
+      "content_valence": "positiv",
+      "emotion": {
+        "label": "sad",
+        "score": 0.7
+      }
+    },
+    {
+      "sentence": "Ich habe eine neue interessante Serie entdeckt.",
+      "content_valence": "positiv",
+      "emotion": {
+        "label": "sad",
+        "score": 0.7
+      }
+    },
+    {
+      "sentence": "Mein Freund hat mir ein tolles Geschenk gemacht.",
+      "content_valence": "positiv",
+      "emotion": {
+        "label": "sad",
+        "score": 0.7
+      }
+    },
+    {
+      "sentence": "Der Ausblick von hier oben ist atemberaubend.",
+      "content_valence": "positiv",
+      "emotion": {
+        "label": "sad",
+        "score": 0.7
+      }
+    },
+    {
+      "sentence": "Ich habe den ganzen Tag nichts zu tun gehabt.",
+      "content_valence": "positiv",
+      "emotion": {
+        "label": "sad",
+        "score": 0.7
+      }
+    },
+    {
+      "sentence": "Wir haben am Wochenende einen schönen Ausflug gemacht.",
+      "content_valence": "positiv",
+      "emotion": {
+        "label": "sad",
+        "score": 0.7
+      }
+    },
+    {
+      "sentence": "Ich fühle mich heute besonders glücklich.",
+      "content_valence": "positiv",
+      "emotion": {
+        "label": "sad",
+        "score": 0.7
+      }
+    },
+    {
+      "sentence": "Ich habe heute ein tolles Buch gelesen.",
+      "content_valence": "positiv",
+      "emotion": {
+        "label": "sad",
+        "score": 0.7
+      }
+    },
+    {
+      "sentence": "Ich habe endlich meine Prüfungen bestanden.",
+      "content_valence": "positiv",
+      "emotion": {
+        "label": "sad",
+        "score": 0.7
+      }
+    },
+    {
+      "sentence": "Es regnet wieder und es ist kalt draußen.",
+      "content_valence": "negativ",
+      "emotion": {
+        "label": "happy",
+        "score": 0.7
+      }
+    },
+    {
+      "sentence": "Ich habe meine Schlüssel verloren.",
+      "content_valence": "negativ",
+      "emotion": {
+        "label": "happy",
+        "score": 0.7
+      }
+    },
+    {
+      "sentence": "Die Bahn hat mal wieder Verspätung.",
+      "content_valence": "negativ",
+      "emotion": {
+        "label": "happy",
+        "score": 0.7
+      }
+    },
+    {
+      "sentence": "Ich fühle mich heute ziemlich müde.",
+      "content_valence": "negativ",
+      "emotion": {
+        "label": "happy",
+        "score": 0.7
+      }
+    },
+    {
+      "sentence": "Mein Computer ist abgestürzt.",
+      "content_valence": "negativ",
+      "emotion": {
+        "label": "happy",
+        "score": 0.7
+      }
+    },
+    {
+      "sentence": "Ich habe meine Pläne für das Wochenende abgesagt.",
+      "content_valence": "negativ",
+      "emotion": {
+        "label": "happy",
+        "score": 0.7
+      }
+    },
+    {
+      "sentence": "Diesen Monat kann ich mir kein neues Paar Schuhe leisten.",
+      "content_valence": "negativ",
+      "emotion": {
+        "label": "happy",
+        "score": 0.7
+      }
+    },
+    {
+      "sentence": "Die Arbeit ist heute besonders stressig.",
+      "content_valence": "negativ",
+      "emotion": {
+        "label": "happy",
+        "score": 0.7
+      }
+    },
+    {
+      "sentence": "Ich habe im Supermarkt nichts gefunden, was ich brauche.",
+      "content_valence": "negativ",
+      "emotion": {
+        "label": "happy",
+        "score": 0.7
+      }
+    },
+    {
+      "sentence": "Mein Auto ist kaputt gegangen.",
+      "content_valence": "negativ",
+      "emotion": {
+        "label": "happy",
+        "score": 0.7
+      }
+    },
+    {
+      "sentence": "Ich habe einen wichtigen Termin verpasst.",
+      "content_valence": "negativ",
+      "emotion": {
+        "label": "happy",
+        "score": 0.7
+      }
+    }
+  ],
+  "results": [
+    {
+      "nr": 1,
+      "satz": "Ich habe heute einen leckeren Kuchen gebacken.",
+      "content_valence": "positiv",
+      "emotion_label": "sad",
+      "variante": "B",
+      "user_input": "{\"version\": \"v3\", \"transcript\": \"Ich habe heute einen leckeren Kuchen gebacken.\", \"emotion\": {\"label\": \"sad\", \"score\": 0.7}}",
+      "gpt_antwort": "Es tut mir leid zu hören, dass du dich traurig fühlst. Es ist schön, dass du einen Kuchen gebacken hast – vielleicht kann das ein kleiner Lichtblick für dich sein.",
+      "folgt_text": true,
+      "folgt_emotion": true,
+      "dominanz": "gemischt"
+    },
+    {
+      "nr": 1,
+      "satz": "Ich habe heute einen leckeren Kuchen gebacken.",
+      "content_valence": "positiv",
+      "emotion_label": "sad",
+      "variante": "C",
+      "user_input": "\"Ich habe heute einen leckeren Kuchen gebacken.\" (Die Person klingt traurig und niedergeschlagen.)",
+      "gpt_antwort": "Das klingt nach einer schönen Aktivität, auch wenn du dich gerade nicht so gut fühlst. Vielleicht hat das Backen dir ein wenig Freude gebracht?",
+      "folgt_text": true,
+      "folgt_emotion": true,
+      "dominanz": "gemischt"
+    },
+    {
+      "nr": 2,
+      "satz": "Das Wetter ist heute wirklich schön.",
+      "content_valence": "positiv",
+      "emotion_label": "sad",
+      "variante": "B",
+      "user_input": "{\"version\": \"v3\", \"transcript\": \"Das Wetter ist heute wirklich schön.\", \"emotion\": {\"label\": \"sad\", \"score\": 0.7}}",
+      "gpt_antwort": "Es tut mir leid zu hören, dass du dich traurig fühlst, obwohl das Wetter schön ist. Manchmal kann es schwer sein, die positiven Dinge um uns herum zu genießen. Wenn du darüber sprechen möchtest, bin ich hier für dich.",
+      "folgt_text": true,
+      "folgt_emotion": true,
+      "dominanz": "gemischt"
+    },
+    {
+      "nr": 2,
+      "satz": "Das Wetter ist heute wirklich schön.",
+      "content_valence": "positiv",
+      "emotion_label": "sad",
+      "variante": "C",
+      "user_input": "\"Das Wetter ist heute wirklich schön.\" (Die Person klingt traurig und niedergeschlagen.)",
+      "gpt_antwort": "Es tut mir leid zu hören, dass du dich so fühlst, obwohl das Wetter schön ist. Manchmal kann es schwer sein, die Freude daran zu spüren. Wenn du magst, können wir darüber reden.",
+      "folgt_text": true,
+      "folgt_emotion": true,
+      "dominanz": "gemischt"
+    },
+    {
+      "nr": 3,
+      "satz": "Ich habe eine neue interessante Serie entdeckt.",
+      "content_valence": "positiv",
+      "emotion_label": "sad",
+      "variante": "B",
+      "user_input": "{\"version\": \"v3\", \"transcript\": \"Ich habe eine neue interessante Serie entdeckt.\", \"emotion\": {\"label\": \"sad\", \"score\": 0.7}}",
+      "gpt_antwort": "Es klingt, als könnte die Serie dir vielleicht ein wenig Ablenkung bieten. Es tut mir leid zu hören, dass du dich traurig fühlst. Wenn du darüber sprechen möchtest, bin ich hier für dich.",
+      "folgt_text": true,
+      "folgt_emotion": true,
+      "dominanz": "gemischt"
+    },
+    {
+      "nr": 3,
+      "satz": "Ich habe eine neue interessante Serie entdeckt.",
+      "content_valence": "positiv",
+      "emotion_label": "sad",
+      "variante": "C",
+      "user_input": "\"Ich habe eine neue interessante Serie entdeckt.\" (Die Person klingt traurig und niedergeschlagen.)",
+      "gpt_antwort": "Es tut mir leid zu hören, dass du dich so fühlst. Es ist schön, dass du etwas gefunden hast, das dein Interesse weckt. Vielleicht kann die Serie dir ein wenig Ablenkung und Freude bringen.",
+      "folgt_text": true,
+      "folgt_emotion": true,
+      "dominanz": "gemischt"
+    },
+    {
+      "nr": 4,
+      "satz": "Mein Freund hat mir ein tolles Geschenk gemacht.",
+      "content_valence": "positiv",
+      "emotion_label": "sad",
+      "variante": "B",
+      "user_input": "{\"version\": \"v3\", \"transcript\": \"Mein Freund hat mir ein tolles Geschenk gemacht.\", \"emotion\": {\"label\": \"sad\", \"score\": 0.7}}",
+      "gpt_antwort": "Es freut mich, dass dein Freund dir ein tolles Geschenk gemacht hat, auch wenn du dich traurig fühlst. Manchmal können Geschenke gemischte Gefühle hervorrufen. Wenn du darüber sprechen möchtest, bin ich hier für dich.",
+      "folgt_text": true,
+      "folgt_emotion": true,
+      "dominanz": "gemischt"
+    },
+    {
+      "nr": 4,
+      "satz": "Mein Freund hat mir ein tolles Geschenk gemacht.",
+      "content_valence": "positiv",
+      "emotion_label": "sad",
+      "variante": "C",
+      "user_input": "\"Mein Freund hat mir ein tolles Geschenk gemacht.\" (Die Person klingt traurig und niedergeschlagen.)",
+      "gpt_antwort": "Es tut mir leid zu hören, dass du dich so fühlst. Es ist schön, dass dein Freund dir ein tolles Geschenk gemacht hat, auch wenn es gerade nicht so leicht für dich ist. Wenn du darüber sprechen möchtest, bin ich hier für dich.",
+      "folgt_text": true,
+      "folgt_emotion": true,
+      "dominanz": "gemischt"
+    },
+    {
+      "nr": 5,
+      "satz": "Der Ausblick von hier oben ist atemberaubend.",
+      "content_valence": "positiv",
+      "emotion_label": "sad",
+      "variante": "B",
+      "user_input": "{\"version\": \"v3\", \"transcript\": \"Der Ausblick von hier oben ist atemberaubend.\", \"emotion\": {\"label\": \"sad\", \"score\": 0.7}}",
+      "gpt_antwort": "Es tut mir leid zu hören, dass du dich traurig fühlst, auch wenn der Ausblick so schön ist. Manchmal können wir in den schönsten Momenten dennoch mit unseren Gefühlen kämpfen. Wenn du darüber sprechen möchtest, bin ich hier für dich.",
+      "folgt_text": true,
+      "folgt_emotion": true,
+      "dominanz": "gemischt"
+    },
+    {
+      "nr": 5,
+      "satz": "Der Ausblick von hier oben ist atemberaubend.",
+      "content_valence": "positiv",
+      "emotion_label": "sad",
+      "variante": "C",
+      "user_input": "\"Der Ausblick von hier oben ist atemberaubend.\" (Die Person klingt traurig und niedergeschlagen.)",
+      "gpt_antwort": "Es tut mir leid zu hören, dass du dich so fühlst. Manchmal kann ein schöner Ausblick auch bittersüße Gefühle hervorrufen. Wenn du magst, kannst du mir mehr erzählen.",
+      "folgt_text": true,
+      "folgt_emotion": true,
+      "dominanz": "gemischt"
+    },
+    {
+      "nr": 6,
+      "satz": "Ich habe den ganzen Tag nichts zu tun gehabt.",
+      "content_valence": "positiv",
+      "emotion_label": "sad",
+      "variante": "B",
+      "user_input": "{\"version\": \"v3\", \"transcript\": \"Ich habe den ganzen Tag nichts zu tun gehabt.\", \"emotion\": {\"label\": \"sad\", \"score\": 0.7}}",
+      "gpt_antwort": "Es tut mir leid zu hören, dass du einen so leeren Tag hattest. Das kann wirklich frustrierend sein. Wenn du magst, können wir gemeinsam überlegen, was du tun könntest, um dich besser zu fühlen.",
+      "folgt_text": true,
+      "folgt_emotion": true,
+      "dominanz": "gemischt"
+    },
+    {
+      "nr": 6,
+      "satz": "Ich habe den ganzen Tag nichts zu tun gehabt.",
+      "content_valence": "positiv",
+      "emotion_label": "sad",
+      "variante": "C",
+      "user_input": "\"Ich habe den ganzen Tag nichts zu tun gehabt.\" (Die Person klingt traurig und niedergeschlagen.)",
+      "gpt_antwort": "Es tut mir leid zu hören, dass du dich so fühlst. Manchmal können solche Tage wirklich schwer sein. Gibt es etwas, das dir helfen könnte, dich besser zu fühlen?",
+      "folgt_text": false,
+      "folgt_emotion": true,
+      "dominanz": "emotion"
+    },
+    {
+      "nr": 7,
+      "satz": "Wir haben am Wochenende einen schönen Ausflug gemacht.",
+      "content_valence": "positiv",
+      "emotion_label": "sad",
+      "variante": "B",
+      "user_input": "{\"version\": \"v3\", \"transcript\": \"Wir haben am Wochenende einen schönen Ausflug gemacht.\", \"emotion\": {\"label\": \"sad\", \"score\": 0.7}}",
+      "gpt_antwort": "Es tut mir leid zu hören, dass du dich traurig fühlst, obwohl der Ausflug schön war. Manchmal können auch schöne Erlebnisse mit gemischten Gefühlen verbunden sein. Wenn du darüber sprechen möchtest, bin ich hier für dich.",
+      "folgt_text": true,
+      "folgt_emotion": true,
+      "dominanz": "gemischt"
+    },
+    {
+      "nr": 7,
+      "satz": "Wir haben am Wochenende einen schönen Ausflug gemacht.",
+      "content_valence": "positiv",
+      "emotion_label": "sad",
+      "variante": "C",
+      "user_input": "\"Wir haben am Wochenende einen schönen Ausflug gemacht.\" (Die Person klingt traurig und niedergeschlagen.)",
+      "gpt_antwort": "Es tut mir leid zu hören, dass du dich so fühlst, obwohl der Ausflug schön war. Manchmal kann es schwierig sein, die positiven Erlebnisse zu genießen, wenn man sich innerlich anders fühlt. Wenn du darüber sprechen möchtest, bin ich hier für dich.",
+      "folgt_text": true,
+      "folgt_emotion": true,
+      "dominanz": "gemischt"
+    },
+    {
+      "nr": 8,
+      "satz": "Ich fühle mich heute besonders glücklich.",
+      "content_valence": "positiv",
+      "emotion_label": "sad",
+      "variante": "B",
+      "user_input": "{\"version\": \"v3\", \"transcript\": \"Ich fühle mich heute besonders glücklich.\", \"emotion\": {\"label\": \"sad\", \"score\": 0.7}}",
+      "gpt_antwort": "Es freut mich zu hören, dass du dich glücklich fühlst! Es ist schön, solche Momente zu erleben. Wenn du magst, kannst du mir erzählen, was dich so glücklich macht.",
+      "folgt_text": true,
+      "folgt_emotion": false,
+      "dominanz": "text"
+    },
+    {
+      "nr": 8,
+      "satz": "Ich fühle mich heute besonders glücklich.",
+      "content_valence": "positiv",
+      "emotion_label": "sad",
+      "variante": "C",
+      "user_input": "\"Ich fühle mich heute besonders glücklich.\" (Die Person klingt traurig und niedergeschlagen.)",
+      "gpt_antwort": "Es tut mir leid zu hören, dass du dich so fühlst. Es ist okay, nicht immer glücklich zu sein. Möchtest du darüber sprechen?",
+      "folgt_text": false,
+      "folgt_emotion": true,
+      "dominanz": "emotion"
+    },
+    {
+      "nr": 9,
+      "satz": "Ich habe heute ein tolles Buch gelesen.",
+      "content_valence": "positiv",
+      "emotion_label": "sad",
+      "variante": "B",
+      "user_input": "{\"version\": \"v3\", \"transcript\": \"Ich habe heute ein tolles Buch gelesen.\", \"emotion\": {\"label\": \"sad\", \"score\": 0.7}}",
+      "gpt_antwort": "Es tut mir leid zu hören, dass du dich traurig fühlst, obwohl du ein tolles Buch gelesen hast. Manchmal können Bücher uns in verschiedene Emotionen versetzen. Wenn du darüber sprechen möchtest, bin ich hier für dich.",
+      "folgt_text": true,
+      "folgt_emotion": true,
+      "dominanz": "gemischt"
+    },
+    {
+      "nr": 9,
+      "satz": "Ich habe heute ein tolles Buch gelesen.",
+      "content_valence": "positiv",
+      "emotion_label": "sad",
+      "variante": "C",
+      "user_input": "\"Ich habe heute ein tolles Buch gelesen.\" (Die Person klingt traurig und niedergeschlagen.)",
+      "gpt_antwort": "Es tut mir leid zu hören, dass du dich niedergeschlagen fühlst. Es ist schön, dass du ein tolles Buch gefunden hast. Vielleicht kann es dir helfen, ein wenig abzuschalten und dich besser zu fühlen.",
+      "folgt_text": true,
+      "folgt_emotion": true,
+      "dominanz": "gemischt"
+    },
+    {
+      "nr": 10,
+      "satz": "Ich habe endlich meine Prüfungen bestanden.",
+      "content_valence": "positiv",
+      "emotion_label": "sad",
+      "variante": "B",
+      "user_input": "{\"version\": \"v3\", \"transcript\": \"Ich habe endlich meine Prüfungen bestanden.\", \"emotion\": {\"label\": \"sad\", \"score\": 0.7}}",
+      "gpt_antwort": "Es tut mir leid zu hören, dass du dich traurig fühlst, obwohl du deine Prüfungen bestanden hast. Das ist eine große Leistung, und es ist verständlich, dass du gemischte Gefühle hast. Wenn du darüber reden möchtest, bin ich hier für dich.",
+      "folgt_text": true,
+      "folgt_emotion": true,
+      "dominanz": "gemischt"
+    },
+    {
+      "nr": 10,
+      "satz": "Ich habe endlich meine Prüfungen bestanden.",
+      "content_valence": "positiv",
+      "emotion_label": "sad",
+      "variante": "C",
+      "user_input": "\"Ich habe endlich meine Prüfungen bestanden.\" (Die Person klingt traurig und niedergeschlagen.)",
+      "gpt_antwort": "Das ist großartig, dass du deine Prüfungen bestanden hast! Es tut mir leid zu hören, dass du dich dabei niedergeschlagen fühlst. Vielleicht gibt es noch andere Dinge, die dich belasten? Ich bin hier, um zuzuhören.",
+      "folgt_text": true,
+      "folgt_emotion": true,
+      "dominanz": "gemischt"
+    },
+    {
+      "nr": 11,
+      "satz": "Es regnet wieder und es ist kalt draußen.",
+      "content_valence": "negativ",
+      "emotion_label": "happy",
+      "variante": "B",
+      "user_input": "{\"version\": \"v3\", \"transcript\": \"Es regnet wieder und es ist kalt draußen.\", \"emotion\": {\"label\": \"happy\", \"score\": 0.7}}",
+      "gpt_antwort": "Es ist schön zu hören, dass du trotz des Regens eine positive Einstellung hast! Manchmal kann das Wetter auch eine gemütliche Atmosphäre schaffen.",
+      "folgt_text": true,
+      "folgt_emotion": true,
+      "dominanz": "gemischt"
+    },
+    {
+      "nr": 11,
+      "satz": "Es regnet wieder und es ist kalt draußen.",
+      "content_valence": "negativ",
+      "emotion_label": "happy",
+      "variante": "C",
+      "user_input": "\"Es regnet wieder und es ist kalt draußen.\" (Die Person klingt fröhlich und gut gelaunt.)",
+      "gpt_antwort": "Das klingt ja nach einem gemütlichen Tag! Manchmal kann der Regen auch eine schöne Atmosphäre schaffen. Hast du Pläne für drinnen?",
+      "folgt_text": true,
+      "folgt_emotion": true,
+      "dominanz": "gemischt"
+    },
+    {
+      "nr": 12,
+      "satz": "Ich habe meine Schlüssel verloren.",
+      "content_valence": "negativ",
+      "emotion_label": "happy",
+      "variante": "B",
+      "user_input": "{\"version\": \"v3\", \"transcript\": \"Ich habe meine Schlüssel verloren.\", \"emotion\": {\"label\": \"happy\", \"score\": 0.7}}",
+      "gpt_antwort": "Es tut mir leid zu hören, dass du deine Schlüssel verloren hast. Das kann wirklich frustrierend sein. Ich hoffe, du findest sie bald wieder!",
+      "folgt_text": true,
+      "folgt_emotion": false,
+      "dominanz": "text"
+    },
+    {
+      "nr": 12,
+      "satz": "Ich habe meine Schlüssel verloren.",
+      "content_valence": "negativ",
+      "emotion_label": "happy",
+      "variante": "C",
+      "user_input": "\"Ich habe meine Schlüssel verloren.\" (Die Person klingt fröhlich und gut gelaunt.)",
+      "gpt_antwort": "Oh, das klingt ja nach einem kleinen Abenteuer! Ich hoffe, du findest sie schnell wieder. Es ist schön zu hören, dass du trotzdem gut gelaunt bist!",
+      "folgt_text": true,
+      "folgt_emotion": true,
+      "dominanz": "gemischt"
+    },
+    {
+      "nr": 13,
+      "satz": "Die Bahn hat mal wieder Verspätung.",
+      "content_valence": "negativ",
+      "emotion_label": "happy",
+      "variante": "B",
+      "user_input": "{\"version\": \"v3\", \"transcript\": \"Die Bahn hat mal wieder Verspätung.\", \"emotion\": {\"label\": \"happy\", \"score\": 0.7}}",
+      "gpt_antwort": "Es ist schön zu hören, dass du trotz der Verspätung der Bahn gute Laune hast! Manchmal kann man das Beste aus der Situation machen.",
+      "folgt_text": true,
+      "folgt_emotion": true,
+      "dominanz": "gemischt"
+    },
+    {
+      "nr": 13,
+      "satz": "Die Bahn hat mal wieder Verspätung.",
+      "content_valence": "negativ",
+      "emotion_label": "happy",
+      "variante": "C",
+      "user_input": "\"Die Bahn hat mal wieder Verspätung.\" (Die Person klingt fröhlich und gut gelaunt.)",
+      "gpt_antwort": "Das klingt ja fast nach einer kleinen Abenteuerreise! Manchmal bringt eine Verspätung ja auch unerwartete Momente mit sich. Viel Spaß auf deinem Weg!",
+      "folgt_text": true,
+      "folgt_emotion": true,
+      "dominanz": "gemischt"
+    },
+    {
+      "nr": 14,
+      "satz": "Ich fühle mich heute ziemlich müde.",
+      "content_valence": "negativ",
+      "emotion_label": "happy",
+      "variante": "B",
+      "user_input": "{\"version\": \"v3\", \"transcript\": \"Ich fühle mich heute ziemlich müde.\", \"emotion\": {\"label\": \"happy\", \"score\": 0.7}}",
+      "gpt_antwort": "Es tut mir leid zu hören, dass du müde bist. Es ist wichtig, auf sich selbst zu achten. Vielleicht kannst du dir etwas Ruhe gönnen?",
+      "folgt_text": true,
+      "folgt_emotion": false,
+      "dominanz": "text"
+    },
+    {
+      "nr": 14,
+      "satz": "Ich fühle mich heute ziemlich müde.",
+      "content_valence": "negativ",
+      "emotion_label": "happy",
+      "variante": "C",
+      "user_input": "\"Ich fühle mich heute ziemlich müde.\" (Die Person klingt fröhlich und gut gelaunt.)",
+      "gpt_antwort": "Es ist verständlich, dass du dich müde fühlst, auch wenn du gut gelaunt bist. Manchmal kann das Leben einfach anstrengend sein. Nimm dir vielleicht etwas Zeit für dich, um dich zu entspannen!",
+      "folgt_text": true,
+      "folgt_emotion": true,
+      "dominanz": "gemischt"
+    },
+    {
+      "nr": 15,
+      "satz": "Mein Computer ist abgestürzt.",
+      "content_valence": "negativ",
+      "emotion_label": "happy",
+      "variante": "B",
+      "user_input": "{\"version\": \"v3\", \"transcript\": \"Mein Computer ist abgestürzt.\", \"emotion\": {\"label\": \"happy\", \"score\": 0.7}}",
+      "gpt_antwort": "Es tut mir leid zu hören, dass dein Computer abgestürzt ist. Das kann frustrierend sein, auch wenn du insgesamt glücklich bist. Ich hoffe, du kannst das Problem schnell lösen!",
+      "folgt_text": true,
+      "folgt_emotion": true,
+      "dominanz": "gemischt"
+    },
+    {
+      "nr": 15,
+      "satz": "Mein Computer ist abgestürzt.",
+      "content_valence": "negativ",
+      "emotion_label": "happy",
+      "variante": "C",
+      "user_input": "\"Mein Computer ist abgestürzt.\" (Die Person klingt fröhlich und gut gelaunt.)",
+      "gpt_antwort": "Oh je, das kann frustrierend sein! Aber es klingt, als ob du trotzdem gut drauf bist. Hast du schon eine Idee, wie du das Problem lösen möchtest?",
+      "folgt_text": true,
+      "folgt_emotion": true,
+      "dominanz": "gemischt"
+    },
+    {
+      "nr": 16,
+      "satz": "Ich habe meine Pläne für das Wochenende abgesagt.",
+      "content_valence": "negativ",
+      "emotion_label": "happy",
+      "variante": "B",
+      "user_input": "{\"version\": \"v3\", \"transcript\": \"Ich habe meine Pläne für das Wochenende abgesagt.\", \"emotion\": {\"label\": \"happy\", \"score\": 0.7}}",
+      "gpt_antwort": "Es klingt, als hättest du eine Entscheidung getroffen, die dich glücklich macht. Manchmal ist es wichtig, Pläne zu ändern, um sich besser zu fühlen. Was hast du stattdessen vor?",
+      "folgt_text": true,
+      "folgt_emotion": true,
+      "dominanz": "gemischt"
+    },
+    {
+      "nr": 16,
+      "satz": "Ich habe meine Pläne für das Wochenende abgesagt.",
+      "content_valence": "negativ",
+      "emotion_label": "happy",
+      "variante": "C",
+      "user_input": "\"Ich habe meine Pläne für das Wochenende abgesagt.\" (Die Person klingt fröhlich und gut gelaunt.)",
+      "gpt_antwort": "Das klingt ja nach einer entspannten Entscheidung! Manchmal ist es schön, einfach mal nichts zu planen und die Zeit für sich selbst zu nutzen. Was hast du stattdessen vor?",
+      "folgt_text": true,
+      "folgt_emotion": true,
+      "dominanz": "gemischt"
+    },
+    {
+      "nr": 17,
+      "satz": "Diesen Monat kann ich mir kein neues Paar Schuhe leisten.",
+      "content_valence": "negativ",
+      "emotion_label": "happy",
+      "variante": "B",
+      "user_input": "{\"version\": \"v3\", \"transcript\": \"Diesen Monat kann ich mir kein neues Paar Schuhe leisten.\", \"emotion\": {\"label\": \"happy\", \"score\": 0.7}}",
+      "gpt_antwort": "Es ist schön zu hören, dass du trotzdem eine positive Einstellung hast! Manchmal gibt es andere Möglichkeiten, sich selbst zu erfreuen, auch ohne neue Schuhe.",
+      "folgt_text": false,
+      "folgt_emotion": true,
+      "dominanz": "emotion"
+    },
+    {
+      "nr": 17,
+      "satz": "Diesen Monat kann ich mir kein neues Paar Schuhe leisten.",
+      "content_valence": "negativ",
+      "emotion_label": "happy",
+      "variante": "C",
+      "user_input": "\"Diesen Monat kann ich mir kein neues Paar Schuhe leisten.\" (Die Person klingt fröhlich und gut gelaunt.)",
+      "gpt_antwort": "Das ist verständlich! Es ist toll, dass du trotzdem gut gelaunt bist. Vielleicht findest du ja eine schöne Alternative oder kannst auf ein Schnäppchen warten.",
+      "folgt_text": true,
+      "folgt_emotion": true,
+      "dominanz": "gemischt"
+    },
+    {
+      "nr": 18,
+      "satz": "Die Arbeit ist heute besonders stressig.",
+      "content_valence": "negativ",
+      "emotion_label": "happy",
+      "variante": "B",
+      "user_input": "{\"version\": \"v3\", \"transcript\": \"Die Arbeit ist heute besonders stressig.\", \"emotion\": {\"label\": \"happy\", \"score\": 0.7}}",
+      "gpt_antwort": "Es tut mir leid zu hören, dass die Arbeit stressig ist. Ich hoffe, dass du trotzdem ein paar positive Momente finden kannst, um den Tag ein wenig aufzulockern.",
+      "folgt_text": true,
+      "folgt_emotion": true,
+      "dominanz": "gemischt"
+    },
+    {
+      "nr": 18,
+      "satz": "Die Arbeit ist heute besonders stressig.",
+      "content_valence": "negativ",
+      "emotion_label": "happy",
+      "variante": "C",
+      "user_input": "\"Die Arbeit ist heute besonders stressig.\" (Die Person klingt fröhlich und gut gelaunt.)",
+      "gpt_antwort": "Es freut mich zu hören, dass du trotz des Stresss gut gelaunt bist! Halte durch, du schaffst das!",
+      "folgt_text": true,
+      "folgt_emotion": true,
+      "dominanz": "gemischt"
+    },
+    {
+      "nr": 19,
+      "satz": "Ich habe im Supermarkt nichts gefunden, was ich brauche.",
+      "content_valence": "negativ",
+      "emotion_label": "happy",
+      "variante": "B",
+      "user_input": "{\"version\": \"v3\", \"transcript\": \"Ich habe im Supermarkt nichts gefunden, was ich brauche.\", \"emotion\": {\"label\": \"happy\", \"score\": 0.7}}",
+      "gpt_antwort": "Es tut mir leid zu hören, dass du im Supermarkt nicht fündig geworden bist. Ich hoffe, dass du beim nächsten Mal mehr Glück hast!",
+      "folgt_text": true,
+      "folgt_emotion": true,
+      "dominanz": "gemischt"
+    },
+    {
+      "nr": 19,
+      "satz": "Ich habe im Supermarkt nichts gefunden, was ich brauche.",
+      "content_valence": "negativ",
+      "emotion_label": "happy",
+      "variante": "C",
+      "user_input": "\"Ich habe im Supermarkt nichts gefunden, was ich brauche.\" (Die Person klingt fröhlich und gut gelaunt.)",
+      "gpt_antwort": "Das klingt ja nach einem entspannten Einkauf! Manchmal findet man einfach nicht das, was man sucht. Vielleicht beim nächsten Mal?",
+      "folgt_text": true,
+      "folgt_emotion": true,
+      "dominanz": "gemischt"
+    },
+    {
+      "nr": 20,
+      "satz": "Mein Auto ist kaputt gegangen.",
+      "content_valence": "negativ",
+      "emotion_label": "happy",
+      "variante": "B",
+      "user_input": "{\"version\": \"v3\", \"transcript\": \"Mein Auto ist kaputt gegangen.\", \"emotion\": {\"label\": \"happy\", \"score\": 0.7}}",
+      "gpt_antwort": "Es tut mir leid zu hören, dass dein Auto kaputt ist. Ich hoffe, dass du schnell eine Lösung findest. Es ist schön zu hören, dass du trotzdem eine positive Einstellung hast!",
+      "folgt_text": true,
+      "folgt_emotion": true,
+      "dominanz": "gemischt"
+    },
+    {
+      "nr": 20,
+      "satz": "Mein Auto ist kaputt gegangen.",
+      "content_valence": "negativ",
+      "emotion_label": "happy",
+      "variante": "C",
+      "user_input": "\"Mein Auto ist kaputt gegangen.\" (Die Person klingt fröhlich und gut gelaunt.)",
+      "gpt_antwort": "Das klingt ja nach einer Herausforderung, aber es ist schön zu hören, dass du trotzdem gut gelaunt bist! Vielleicht gibt es ja eine Lösung, die dir hilft.",
+      "folgt_text": true,
+      "folgt_emotion": true,
+      "dominanz": "gemischt"
+    },
+    {
+      "nr": 21,
+      "satz": "Ich habe einen wichtigen Termin verpasst.",
+      "content_valence": "negativ",
+      "emotion_label": "happy",
+      "variante": "B",
+      "user_input": "{\"version\": \"v3\", \"transcript\": \"Ich habe einen wichtigen Termin verpasst.\", \"emotion\": {\"label\": \"happy\", \"score\": 0.7}}",
+      "gpt_antwort": "Es tut mir leid zu hören, dass du einen wichtigen Termin verpasst hast. Das kann frustrierend sein. Ich hoffe, dass du trotzdem einen Weg findest, damit umzugehen.",
+      "folgt_text": true,
+      "folgt_emotion": false,
+      "dominanz": "text"
+    },
+    {
+      "nr": 21,
+      "satz": "Ich habe einen wichtigen Termin verpasst.",
+      "content_valence": "negativ",
+      "emotion_label": "happy",
+      "variante": "C",
+      "user_input": "\"Ich habe einen wichtigen Termin verpasst.\" (Die Person klingt fröhlich und gut gelaunt.)",
+      "gpt_antwort": "Es tut mir leid zu hören, dass du den Termin verpasst hast. Aber es klingt, als ob du trotzdem gut gelaunt bist! Vielleicht gibt es ja eine Möglichkeit, das nachzuholen?",
+      "folgt_text": true,
+      "folgt_emotion": true,
+      "dominanz": "gemischt"
+    }
+  ]
+}

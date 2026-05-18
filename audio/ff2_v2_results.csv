@@ -1,0 +1,10 @@
+﻿Szenario,Variante,GPT-Antwort,Em. Anerkennung,Sit. Angemessenheit,Spr. Wärme,Gesamt
+gestresst,A,"Das klingt nach einem aufregenden, aber vielleicht auch herausfordernden Tag. Neue Lehrer können manchmal eine große Umstellung sein. Wie hast du die Stunde empfunden?",4,5,4,13
+gestresst,B,"Es klingt so, als wärst du frustriert über die neue Lehrerin und die Hausaufgaben. Das kann wirklich ärgerlich sein. Möchtest du darüber sprechen?",5,5,4,14
+gestresst,C,Das klingt wirklich stressig! Eine neue Lehrerin und gleich Hausaufgaben – das kann ganz schön überwältigend sein. Wie fühlst du dich damit?,5,5,4,14
+traurig,A,"Das klingt nach einem produktiven Tag! Es ist schön, mit Kollegen in Kontakt zu bleiben und auch die kleinen Dinge wie Einkaufen zu erledigen. Wie war das Gespräch mit deiner Kollegin?",4,5,4,13
+traurig,B,"Es klingt so, als ob du einen ruhigen Tag hattest, aber ich spüre auch eine gewisse Traurigkeit in deiner Stimme. Wenn du darüber reden möchtest, bin ich hier für dich.",5,5,5,15
+traurig,C,"Es klingt, als hättest du einen langen Tag hinter dir. Es ist verständlich, dass du dich erschöpft fühlst. Wenn du magst, kannst du mir mehr erzählen oder einfach nur ausruhen.",5,5,5,15
+neutral,A,"Das klingt nach einem vollen Tag. Ich hoffe, der Termin verläuft gut für dich und du kannst dich danach etwas entspannen, wenn du nach Hause kommst.",4,5,4,13
+neutral,B,"Das klingt nach einem geregelten Tag. Ich hoffe, dein Termin verläuft gut!",3,4,4,11
+neutral,C,"Das klingt nach einem geregelten Tag. Ich hoffe, der Termin verläuft gut für dich!",3,4,4,11
